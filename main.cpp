@@ -30,6 +30,6 @@ int main(int argc, char** argv) {
   cout << "Your first name: " << first.c_str() << endl;
   cout << "Your last name: " << last.c_str() << endl;
   cout << "You typed: " << param.c_str() << endl;
-  return 1;
+  return 0;
 }
 
