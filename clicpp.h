@@ -37,12 +37,22 @@ typedef std::map<std::string, tCLICPPSetting>::const_iterator tConfigIt;
 class CLICPP {
 
 public:
+
+  /**
+   * Constructor
+   *
+   * @param argc - The argument count
+   * @param argv - The argument array.
+   */
   CLICPP(int argc, char** argv);
   CLICPP();
   ~CLICPP();
 
   /**
    * Set the output echo to on or off for gathering settings.
+   *
+   * Based off of http://stackoverflow.com/questions/1413445/read-a-password-from-stdcin
+   *
    * @param state
    */
   void setEcho(bool state=false);

@@ -159,12 +159,7 @@ bool CLICPP::configValid(std::string name) {
 }
 
 /**
- * Trim function.
- *
- * Retrieved from http://www.zedwood.com/article/107/cpp-trim-function
- *
- * @param str
- * @return
+ * See header file for description.
  */
 string CLICPP::trim(string str) {
   int i,j,start,end;
@@ -177,11 +172,7 @@ string CLICPP::trim(string str) {
 }
 
 /**
- * Set the echo on or off...
- *
- * Based off of http://stackoverflow.com/questions/1413445/read-a-password-from-stdcin
- *
- * @param enable - To enable or disable the echo.
+ * See header file for description.
  */
 void CLICPP::setEcho(bool enable) {
 #ifdef WIN32
